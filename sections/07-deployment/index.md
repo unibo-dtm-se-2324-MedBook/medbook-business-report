@@ -24,13 +24,15 @@ poetry install
 ```
 poetry install --only main 
 ```
+
 ### Environment Variables (Secrets)
 To run the application end to end, you need:
-* a Firebase project (create _Realtime Database, Authentication, and Storage_)
-* configure the required secrets as environment variables, such as _Firebase admin key_, _Firebase key_, _Firebase service account_.
+1. a Firebase project (create _Realtime Database, Authentication, and Storage_)
+2. configure the required secrets as environment variables, such as _Firebase admin key_, _Firebase key_, _Firebase service account_.
 
 ### Run the application
 Use one of the options below:
+
 1) Run by module
 ```
 poetry run python artefact/__init__.py
@@ -39,7 +41,7 @@ poetry run python artefact/__init__.py
 ```
 poetry run medbook
 ```
-### Run tests
+### Run the tests
 A textual coverage summary is printed automatically when running the standard test task:
 ```
 poetry run pytest

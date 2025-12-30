@@ -1,5 +1,5 @@
 <h1>
-  <img src="pictures/image.png" alt="MedBook icon" width="40" style="vertical-align: middle;">
+  <img src="pictures/image.png" alt="MedBook icon" width="30" style="vertical-align: middle;">
   MedBook – Your Personal Medical Hub
 </h1>
 
