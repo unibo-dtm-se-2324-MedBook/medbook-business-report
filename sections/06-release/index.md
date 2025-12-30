@@ -18,7 +18,7 @@ The project is released under the **Creative Commons Attribution-NonCommercial 4
 | ------------ |------------ |------------ |
 ✅ Private use | ❌ Liability  | Attribution and copyright notice |
 ✅ Modification | ❌ No endorsement | Indicate changes (mark modifications) |
-✅ Distribution (copy & share) | ❌ Warranty | Link to the license |
+✅ Distribution | ❌ Warranty | Link to the license |
 ❌ Commercial use | ❌ Trademark & patent rights not granted | NonCommercial only; no additional restrictions |
 
 ### Reasons for choosing this license:
@@ -28,6 +28,7 @@ The project is released under the **Creative Commons Attribution-NonCommercial 4
 4. **Uniqueness protection** — the license ensures that only the author retains exclusive rights for commercial exploitation of the project.  
 
 In summary, CC BY-NC 4.0 provides a balance between open access for educational purposes and protection against unauthorized commercial use.
+
 ---
 
 ## Choice of the versioning schema
