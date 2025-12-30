@@ -5,7 +5,9 @@ description: "This project aims to create a mobile application that functions as
 - see the details of each event and modify them
 - delete events from the calendar
 The application will consist of a data persistence server that uses Firestore Cloud, the backend part that manages all the functionalities listed above, and the frontend part with a graphical interface used by users. The authentication and authorization will be based on the Google Sign-In API. The whole application will be developed in Android Studio, using Kotlin."
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "light"
 search_enabled: true
 plugins:
   - jekyll-remote-theme
@@ -14,3 +16,4 @@ defaults:
       path: ""
     values:
       layout: default
+
