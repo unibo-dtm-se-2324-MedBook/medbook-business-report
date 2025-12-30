@@ -5,7 +5,7 @@ has_children: false
 nav_order: 1
 ---
 
-# ![icon of logo](image-2.png) MedBook - Your Personal Medical Hub
+# ![(Icon of logo)](pictures/image-2.png) MedBook - Your Personal Medical Hub
 
 ### Author
 - [Bakhmutova Anastasiia](mailto:anastasii.bakhmutova@studio.unibo.it)
@@ -28,4 +28,4 @@ Healthcare is messy: prescriptions, lab results, imaging, notes, reminders. MedB
 
 MedBook is intended to help you organize health information and build better routines. It does not provide medical advice, diagnosis, or treatment. Always consult your healthcare professional for decisions about medications or therapies.
 
-![attention](image-1.png) This repository contains the business report for the MedBook project. The code documentation lives in a separate repository: [MedBook - application code](https://github.com/unibo-dtm-se-2324-MedBook/medbook-application-core)
+![Attention:](pictures/image-1.png) This repository contains the business report for the MedBook project. The code documentation lives in a separate repository: [MedBook - application code](https://github.com/unibo-dtm-se-2324-MedBook/medbook-application-core)
