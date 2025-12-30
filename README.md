@@ -1,4 +1,9 @@
-# ![(Icon of logo)](pictures/image.png) MedBook - Your Personal Medical Hub
+<h1>
+  <img src="pictures/image.png" alt="MedBook icon" width="40" style="vertical-align: middle;">
+  MedBook – Your Personal Medical Hub
+</h1>
+
+<!-- # ![(Icon of logo)](pictures/image.png) MedBook - Your Personal Medical Hub -->
 
 MedBook is a privacy-first mobile app that brings all your health information together in one clean, organized space. No more folders stuffed with papers or photos scattered across devices - everything that matters to your health lives in **MedBook**, neatly structured and always at hand.
 
