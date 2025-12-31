@@ -32,6 +32,6 @@ Healthcare is messy: prescriptions, lab results, imaging, notes, reminders. MedB
 MedBook is intended to help you organize health information and build better routines. It does not provide medical advice, diagnosis, or treatment. Always consult your healthcare professional for decisions about medications or therapies.
 
 <p>
-<img src="pictures/image-1.png" alt="Attention:" width="15" style="vertical-align: middle;">
+<img src="pictures/image-1.png" alt="Attention:" width="20" style="vertical-align: middle;">
 This repository contains the business report for the MedBook project. The code documentation lives in a separate repository: <a href="https://github.com/unibo-dtm-se-2324-MedBook/medbook-application-core">MedBook - application code</a>
 </p>
