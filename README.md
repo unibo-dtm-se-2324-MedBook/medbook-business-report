@@ -3,18 +3,40 @@
   MedBook – Your Personal Medical Hub
 </h1>
 
-<!-- # ![(Icon of logo)](pictures/image.png) MedBook - Your Personal Medical Hub -->
-
 MedBook is a privacy-first mobile app that brings all your health information together in one clean, organized space. No more folders stuffed with papers or photos scattered across devices - everything that matters to your health lives in **MedBook**, neatly structured and always at hand.
 
 **Why MedBook**
 
 Healthcare is messy: prescriptions, lab results, imaging, notes, reminders. MedBook replaces piles of paper and fragmented files with a single, intuitive hub. It helps you stay on top of medications, keep records centralized, and make safer decisions with basic, personalized risk checks.
 
-**Here you will find:**
+The application provides the following **core functionalities**:
+* Secure user authentication and session management;
+* Medication scheduling with a monthly calendar view;
+* Uploading and managing medical documents (PDFs and images);
+* Drug risk analysis using external medical data sources;
+* User profile management;
+* Notification and reminder support.
 
-- **Medication Schedule and Daily Reminder** - create a monthly schedule for your medications;
-- **Secure Document Vault** - upload all your medical files;
-- **Pill Risk Check** - get a check of potential pill risks using your sex, age, and country of origin.
+The system is implemented using <u>Python</u> and the <u>Flet</u> framework for the user interface, with <u>Firebase</u> services used for authentication, data persistence, and file storage, and <u>API</u> connection for drug risk check.
 
 This repository contains the business report for the MedBook project. The code documentation lives in a separate repository: [MedBook - application code](https://github.com/unibo-dtm-se-2324-MedBook/medbook-application-core)
+
+---
+
+## Business Report Structure
+
+The complete business project report is available via GitHub Pages: [MedBook - business report](https://unibo-dtm-se-2324-medbook.github.io/medbook-business-report/)
+
+**Contents:**
+- **Abstract**: a concise summary of overview of the project idea, the project goals, and notes;
+- **Concept**: the core functionalities and problems addressed by the MedBook application;
+- **Requirements**: a detailed specification of functional and non-functional requirements, including user stories and acceptance criteria;
+- **Design**: a description of the system architecture and design decisions, including diffirent diagrams (class, state, sequence, data-flow and flow charts);
+- **Development**: an overview of the development process, including the use of a DVCS, commit conventions, and implementation details;
+- **Validation**: an overview of the testing strategy, test coverage, and validation of system correctness;
+- **Release**: information about project versioning, packaging, and license;
+- **Deployment**: instructions and considerations for deploying and running the application and the tests;
+- **CI/CD**: a description of the continuous integration and continuous deployment pipelines used in the project;
+- **User guide**: practical instructions for end users on how to use the app and its main features with pictures of application;
+- **Developer guide**: guidelines for developers on how to set up the environment, understand the codebase, and contribute to the project;
+- **Future work**: a discussion of known limitations and planned improvements for future development.
