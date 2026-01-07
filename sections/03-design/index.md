@@ -86,9 +86,6 @@ To illustrate the interaction style adopted in MedBook, the **sequence diagram**
 
 The system interaction in MedBook can be described as a **dynamic, scenario-driven flow**: the overall behavior of the application changes depending on which feature is currently open, because the user’s goals and actions differ across application modules. All user scenarios share a common foundation — User Identification and Authentication — after which the user can access the available features inside an authenticated session.
 
-Key user scenarios include:
-action / Sequence часть (или как подводку перед диаграммами). Я сделал его таким, чтобы он звучал профессионально и ровно отражал твою мысль про “динамичные сценарии” и “иерархию” (high-level → low-level).
-
 Dynamic Interaction Perspective
 
 The system interaction in MedBook can be described as a dynamic, scenario-driven flow: the overall behavior of the application changes depending on which feature is currently open, because the user’s goals and actions differ across application modules. For this reason, the interaction layer is best represented through a set of sequence diagrams, each covering a specific user scenario. All scenarios share a common foundation — User Identification and Authentication — after which the user can access the available features inside an authenticated session.
