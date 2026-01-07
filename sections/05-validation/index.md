@@ -12,7 +12,7 @@ This section describes the testing strategy adopted for the MedBook application,
 
 ### Testing Process
 
-We adopted a **unit-first approach** focused on UI components and page logic, using pytest (+ pytest-cov) and extensive **mocking** of external services. Real network (Firebase, openFDA, Storage) is not exercised in unit tests; instead, calls are patched and their effects are asserted at the UI-layer.
+We adopted a **unit-first approach** focused on UI components and page logic, using pytest (+ `pytest-cov`) and extensive **mocking** of external services. Real network (Firebase, openFDA, Storage) is not exercised in unit tests; instead, calls are patched and their effects are asserted at the UI-layer.
 
 Key practices:
 * Tests are written after feature implementation, and are refactored when the UI or flow changes.
@@ -23,7 +23,7 @@ Key practices:
 
 The test coverage of the MedBook application is **approximately 82%** of the total codebase:
 
-<img src="../../pictures/tests.png" width="400" />
+<img src="../../pictures/tests.png"/>
 
 * UI pages / components: ~96–100% each;
 * Service / integration modules: ~30–45% (mocked at call sites; no network in unit scope);
@@ -42,13 +42,13 @@ Where acceptance criteria rely on external systems (Firebase, openFDA, Storage),
 ## Acceptance Testing
 
 Manual acceptance testing covered the full user journeys:
-1. Registration – redirect from First page for unknown email; account creation flow visible in UI;
-2. Login – existing email path; successful flow navigates to the main page; invalid password shows error;
-3. Medication Schedule – month switch, day dialog, add/delete entries reflected in the calendar;
-4. Daily Reminders – notification bootstrap verifies single initialization at first build (UI evidence);
-5. Documents – UI displays empty and non-empty states; actions wired to upload/download/delete;
-6. Medication Risk Check – form validation, 'Search for risks' result rendering and error/exception feedback;
-7. Profile Settings – load current info (mocked), edit dialog, save with validation and UI updates.
+1. **Registration**: redirect from First page for unknown email; account creation flow visible in UI;
+2. **Login**: existing email path; successful flow navigates to the main page; invalid password shows error;
+3. **Medication Schedule**: month switch, day dialog, add/delete entries reflected in the calendar;
+4. **Daily Reminders**: notification bootstrap verifies single initialization at first build (UI evidence);
+5. **Documents**: UI displays empty and non-empty states; actions wired to upload/download/delete;
+6. **Medication Risk Check** form validation, 'Search for risks' result rendering and error/exception feedback;
+7. **Profile Settings**: load current info (mocked), edit dialog, save with validation and UI updates.
 
 All scenarios passed at the time of testing.
 

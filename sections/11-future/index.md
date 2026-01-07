@@ -16,6 +16,8 @@ This project has been designed with extensibility in mind. Several features and 
 
 3. **Smooth Page Transitions**: introduce animated and seamless transitions between application pages to improve user experience and provide a more polished, modern interface.
 
+4. **Increase test coverage**: extend automated tests to improve overall code coverage up to 100%.
+
 ## Project Evolution
 
 1. **User Roles and Access Control**: introduce role-based access control by distinguishing between patients and medical professionals (doctors). Each role will have a dedicated set of permissions and capabilities.

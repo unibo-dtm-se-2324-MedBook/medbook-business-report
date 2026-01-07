@@ -35,10 +35,10 @@ Once you are logged in, you will have access to the full functionality of MedBoo
 After logging in, you will be redirected to the **Medication Schedule page**:
 
 <p align = 'center'>
-    <img src="../../pictures/schedule_page.png" width="150" />
-    <img src="../../pictures/schedule_pills.png" width="150" />
-    <img src="../../pictures/pills_info.png" width="150" />
-    <img src="../../pictures/add_new_pill.png" width="150" />
+    <img src="../../pictures/schedule_page.png" width="150" height="300" style="object-fit: cover;"/>
+    <img src="../../pictures/schedule_pills.png" width="150" height="300" style="object-fit: cover;"/>
+    <img src="../../pictures/pills_info.png" width="150" height="300" style="object-fit: cover;"/>
+    <img src="../../pictures/add_new_pill.png" width="150" height="300" style="object-fit: cover;"/>
 </p>
 
 * This page displays a monthly calendar showing your medication intake plan.
@@ -51,12 +51,11 @@ After logging in, you will be redirected to the **Medication Schedule page**:
 
 ### Medical Documents Management
 
-By selecting "Documents" in the navigation bar, you will open <b>Documents section page</b>:
-
 <div style="display:flex; gap:20px">
     <img src="../../pictures/documents_page.png" width="150" />
     <div>
         <p>
+        By selecting "Documents" in the navigation bar, you will open <b>Documents section page</b>:
             <ul>
                 <li> Here you can upload medical files in PDF format or as image files. </li>
                 <li>Uploaded documents can be viewed, downloaded, or removed at any time. </li>

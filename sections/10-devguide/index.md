@@ -7,7 +7,7 @@ nav_order: 11
 # Developer Guide
 
 MedBook is an **open-source, non-commercial** project released under the CC BY-NC 4.0 license.
-Welcome contributions from developers who are interested in improving the application, fixing bugs, or extending its functionality for **non-commercial** purposes.
+Welcome contributions from developers who are interested in improving the application, fixing bugs, or extending its functionality for non-commercial purposes.
 
 To contribute to the project, please follow the steps below:
 * Fork the repository on GitHub;
@@ -28,7 +28,7 @@ If all checks pass, the pull request can be reviewed and merged, resulting in an
 
 ## Requirements
 
-To build and run MedBook locally, the following environment is required.
+To build and run MedBook locally, the following environment is required:
 
 **Runtime Environment**
 
@@ -87,7 +87,7 @@ Drugs@FDA includes most FDA-approved drug products since 1939. The majority of p
 **Key Facts:**
 * Data Source: Drugs@FDA
 * Data Format: JSON (converted and normalized by openFDA)
-* Time Period Covered: 1939 – 2025-12-23
+* Time Period Covered: from 1939 – nowadays
 * Update Frequency: Daily (Monday–Friday)
 
 **The openFDA API is used to:**

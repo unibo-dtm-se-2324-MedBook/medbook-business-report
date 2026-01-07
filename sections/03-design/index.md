@@ -57,10 +57,11 @@ These entities and their relationships are represented using **Class Model**:
     <div>
         <p>
         This diagram focuses on:
-        <ul>
-            <li>Key attributes and associations </li>
-            <li>Domain responsibilities </li>
-            <li>Logical structure of the system </li>
+            <ul>
+                <li>Key attributes and associations </li>
+                <li>Domain responsibilities </li>
+                <li>Logical structure of the system </li>
+            </ul>
         </p>
     </div>
 </div>

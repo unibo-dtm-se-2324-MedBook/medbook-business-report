@@ -12,7 +12,7 @@ To track the development of our project, the dedicated organization called `unib
 
 Medbook-application-core was divided into several branches: the `master` branch contains project releases, and the `develop` branch was used for ongoing development, branch `testing` contains tests development for the first release of an application. After first release, the decision to improve the app was taken. That's why branch `improvement` contaions new modifications, and `imp_testing` was created from 'improvement' to test features and fixes. 
 
-<img src="../../pictures/branch_schema.png" width="400" />
+<img src="../../pictures/branch_schema.png" />
 
 ## Commit Conventions
 
