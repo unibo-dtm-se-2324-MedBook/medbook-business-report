@@ -17,7 +17,7 @@ The application provides the following **core functionalities**:
 * User profile management;
 * Notification and reminder support.
 
-The system is implemented using <u>Python</u> and the <u>Flet</u> framework for the user interface, with <u>Firebase</u> services used for authentication, data persistence, and file storage, and <u>API</u> connection for drug risk check.
+The system is implemented using *Python* and the *Flet* framework for the user interface, with *Firebase* services used for authentication, data persistence, and file storage, and *API* connection for drug risk check.
 
 This repository contains the business report for the MedBook project. The code documentation lives in a separate repository: [MedBook - application code](https://github.com/unibo-dtm-se-2324-MedBook/medbook-application-core)
 
@@ -28,15 +28,15 @@ This repository contains the business report for the MedBook project. The code d
 The complete business project report is available via GitHub Pages: [MedBook - business report](https://unibo-dtm-se-2324-medbook.github.io/medbook-business-report/)
 
 **Contents:**
-- **Abstract**: a concise summary of overview of the project idea, the project goals, and notes;
-- **Concept**: the core functionalities and problems addressed by the MedBook application;
-- **Requirements**: a detailed specification of functional and non-functional requirements, including user stories and acceptance criteria;
-- **Design**: a description of the system architecture and design decisions, including diffirent diagrams (class, state, sequence, data-flow and flow charts);
-- **Development**: an overview of the development process, including the use of a DVCS, commit conventions, and implementation details;
-- **Validation**: an overview of the testing strategy, test coverage, and validation of system correctness;
-- **Release**: information about project versioning, packaging, and license;
-- **Deployment**: instructions and considerations for deploying and running the application and the tests;
-- **CI/CD**: a description of the continuous integration and continuous deployment pipelines used in the project;
-- **User guide**: practical instructions for end users on how to use the app and its main features with pictures of application;
-- **Developer guide**: guidelines for developers on how to set up the environment, understand the codebase, and contribute to the project;
-- **Future work**: a discussion of known limitations and planned improvements for future development.
+1. **Abstract**: a concise summary of overview of the project idea, the project goals, and notes;
+2. **Concept**: the core functionalities and problems addressed by the MedBook application;
+3. **Requirements**: a detailed specification of functional and non-functional requirements, including user stories and acceptance criteria;
+4. **Design**: a description of the system architecture and design decisions, including diffirent diagrams (class, state, sequence, data-flow and flow charts);
+5. **Development**: an overview of the development process, including the use of a DVCS, commit conventions, and implementation details;
+6. **Validation**: an overview of the testing strategy, test coverage, and validation of system correctness;
+7. **Release**: information about project versioning, packaging, and license;
+8. **Deployment**: instructions and considerations for deploying and running the application and the tests;
+9. **CI/CD**: a description of the continuous integration and continuous deployment pipelines used in the project;
+10. **User guide**: practical instructions for end users on how to use the app and its main features with pictures of application;
+11. **Developer guide**: guidelines for developers on how to set up the environment, understand the codebase, and contribute to the project;
+12. **Future work**: a discussion of known limitations and planned improvements for future development.
