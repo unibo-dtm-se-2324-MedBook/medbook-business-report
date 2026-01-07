@@ -6,6 +6,17 @@ nav_order: 3
 
 # Requirements
 
+## User Scenarios
+* As a patient managing multiple medications, I want to create an account, so that all my medical data is securely stored and linked to my personal profile.
+* As a patient undergoing long-term treatment, I want to see my medications in a monthly calendar view, so that I can clearly understand my treatment plan over time.
+* As a patient whose therapy changes over time, I want to edit or delete medication entries, so that outdated or incorrect information is removed.
+* As a working professional with a busy schedule, I want to receive reminders, so that I do not miss scheduled doses.
+* As a patient managing medical documentation, I want to upload prescriptions and medical reports, so that all my documents are stored in one secure place.
+* As a patient reviewing past treatments, I want to download or delete medical documents, so that I can manage my personal medical archive.
+* As a patient concerned about medication safety, I want to perform a drug risk analysis, so that I can better understand potential adverse effects.
+* As a user updating personal information, I want to view and edit my profile data, so that my personal details remain accurate.
+* As a privacy-conscious user, I want my data to be isolated from other users, so that my personal medical information remains confidential.
+
 ## Functional Requirements
 
 * User Authentication and Account Access: users must be able to register and authenticate securely using their email address and password via Firebase Authentication.
