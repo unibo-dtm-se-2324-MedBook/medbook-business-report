@@ -36,18 +36,8 @@ The application follows a layered architectural approach, adapted to a client–
             </ul>
         </p>
     </div>
-    <img src="../../pictures/Architecture_model.png" width="250" />
+    <img src="../../pictures/Architecture_model.png" width="350" />
 </div>
-
-The application follows a layered architectural approach, adapted to a client–cloud environment:
-* **Presentation Layer**: implemented using Flet UI components. This layer handles user interaction, navigation between pages, and data visualization (calendars, charts, document lists).
-* **Application / Business Logic Layer**: encapsulates core logic such as medication scheduling, validation rules, notification handling, user profile updates, and interaction with external APIs.
-* **Persistence and Integration Layer**: acts as an interface between the application logic and external services, including:
-    * Firebase Realtime Database
-    * Firebase Authentication
-    * Firebase Storage
-    * OpenFDA API
-* **Data Layer**: cloud-managed services responsible for storing structured data, unstructured documents, and user credentials.
 
 ## Modelling
 
@@ -62,12 +52,19 @@ The core domain entities of MedBook include concepts such as:
 
 These entities and their relationships are represented using **Class Model**:
 
-<img src="../../pictures/class_model.png" width="250" />
+<div style="display:flex; gap:20px">
+    <img src="../../pictures/class_model.png" width="350" />
+    <div>
+        <p>
+        This diagram focuses on:
+        <ul>
+            <li>Key attributes and associations </li>
+            <li>Domain responsibilities </li>
+            <li>Logical structure of the system </li>
+        </p>
+    </div>
+</div>
 
-This diagram focuses on:
-* Key attributes and associations
-* Domain responsibilities
-* Logical structure of the system
 
 ## Interaction
 
