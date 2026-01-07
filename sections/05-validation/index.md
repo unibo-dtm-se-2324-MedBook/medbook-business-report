@@ -23,7 +23,7 @@ Key practices:
 
 The test coverage of the MedBook application is **approximately 82%** of the total codebase:
 
-![Test coverage report](../../pictures/tests.png)
+<img src="../../pictures/test_coverage.png" />
 
 * UI pages / components: ~96–100% each;
 * Service / integration modules: ~30–45% (mocked at call sites; no network in unit scope);
